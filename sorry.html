@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7e0e0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 500px;
+        }
+
+        h1 {
+            color: #ff66b2;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            color: #555555;
+            margin-bottom: 30px;
+        }
+
+        .heart {
+            font-size: 50px;
+            color: #ff66b2;
+            animation: bounce 1s infinite;
+        }
+
+        button {
+            background-color: #ff66b2;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ff3385;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>I'm Sorry bao</h1>
+        <p>I just wanted to say that I'm really sorry. bie sheng wo de qi le hao bu hao? wo pei ni liao tian</p>
+	<p>Please forgive me :(</p>
+        <div class="heart">❤️</div>
+        <button onclick="location.href='sorry2.html'">yes</button>
+	<button onclick="location.href='sorry1.html'">No! im still angry!</button>
+    </div>
+</body>
+</html>
